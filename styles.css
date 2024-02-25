@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.sidebar{
+    float: left;
+    width: 200px;
+    background-color: rgb(56, 56, 56);
+    color: rgb(56, 56, 56);
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sidebar a {
+    text-decoration: none;
+    color: rgb(250, 246, 246);
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    background-color: rgb(56, 56, 56);
+    
+}
+.sidebar a:hover{
+    background-color: rgb(56, 56, 56);
+    color: rgb(106, 100, 100);
+    text-shadow: 2px 2px 2px black;
+}*/
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+} 
+.navbar {
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    
+    }
+    .navbar a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .navbar a:hover{
+        color: rgb(106, 100, 100);
+        text-shadow: 2px 2px 2px black;
+    
+    }
+  .navbar a.active{
+        color: rgb(106, 100, 100);
+        text-shadow: 2px 2px 2px black;
+        background-color: rgb(56, 56, 56);
+    }
+    .nav-item{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .nav-link{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .cocial a{
+        float: left;
+        display: flex;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .cocial a:hover{
+        color: rgb(106, 100, 100);
+        text-shadow: 2px 2px 2px black;
+    }
+    .cocial a:active{
+        color: rgb(106, 100, 100);
+        text-shadow: 2px 2px 2px black;
+        
+    }
+.nav-brand h1{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+.foot p{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
