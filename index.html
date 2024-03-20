@@ -1,11 +1,13 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Macket</title>
+  
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    
+    <script src="main.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="<KEY>" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="<KEY>" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="<KEY>" crossorigin="anonymous"></script>
@@ -43,9 +45,47 @@
                 </li>
             </ul>
         </div>
-
+        <!-- <form>     
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="login" class="form-control" >
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <button type="button">
+                    <i class="fas fa-lock"> Password</i>
+            </div>
+        </form> -->
 </header>
-    <footer>
+
+<div class="image-container">
+  <img src="images.jpeg" alt="images" class="zoomable-image" onclick="showPopup()">
+  <img src="images (1).jpeg" alt="images" class="zoomable-image" onclick="showPopup()">
+</div>
+<!-- <img src="images(2).jpeg" alt="images"> -->
+<form name="feedback">
+    <div class="form-group transparent-form">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <button class="transparent-button" type="button">
+            <i class="fas fa-envelope"> Email</i>
+</button>
+    </div>
+  </form>
+<h2 class="text">Lorem ipsum dolor sit amet.</h2>
+  <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nemo, officia doloribus ratione id voluptates libero quisquam alias similique doloremque dolore ad optio assumenda omnis saepe nam possimus. Culpa, ducimus.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, amet tempore qui ullam vel rem nihil provident mollitia consectetur quod facere perferendis perspiciatis animi esse ipsam quos enim in necessitatibus.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quasi.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem delectus corrupti voluptate eos, ipsa enim temporibus quia voluptates expedita, totam, laborum fugit optio nihil non saepe et officia tempora natus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quasi.
+  </p>
+
+<button onclick="scrollToTop()">
+         Go
+</button>
+    <footer class="footer">
+        
+
         <div class="cocial">          
         
         <a href="https://www.facebook.com/" target="_blank"><i class="fa-fa-facebook">Facebook</i></a>
@@ -57,5 +97,5 @@
         <p class="foot">© 2024 Macket</p>
         <p class="foot">Все права защищены</p>
     </footer>
-</body>
+ </body>
 </html>
